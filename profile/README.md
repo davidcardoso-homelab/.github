@@ -29,6 +29,9 @@ Para reproduzir o ambiente completo, siga a ordem abaixo:
 5. [**media**](https://github.com/davidcardoso-homelab/media)  
 	Central de mídia com Jellyfin, Sonarr, Radarr, qBittorrent, Bazarr, Prowlarr, Homarr e Jellyseerr, todos orquestrados via Kubernetes.
 
+6. [[**kubernetes-dashboard**]](https://github.com/davidcardoso-homelab/kubernetes-dashboard)  
+	Solução web para visualizar o cluster através de uma interface amigável.
+
 ---
 
 ## Como Utilizar
