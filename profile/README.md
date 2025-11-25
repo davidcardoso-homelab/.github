@@ -26,10 +26,13 @@ Para reproduzir o ambiente completo, siga a ordem abaixo:
 4. [**pihole-unbound**](https://github.com/davidcardoso-homelab/pihole-unbound)  
 	Solução de DNS seguro e privado, combinando Pi-hole (bloqueio de anúncios) e Unbound (resolução recursiva).
 
-5. [**media**](https://github.com/davidcardoso-homelab/media)  
+5. [**databases**](https://github.com/davidcardoso-homelab/databases)  
+	Provisionamento automatico de banco de dados dentro do cluster kubernetes.
+
+6. [**media**](https://github.com/davidcardoso-homelab/media)  
 	Central de mídia com Jellyfin, Sonarr, Radarr, qBittorrent, Bazarr, Prowlarr, Homarr e Jellyseerr, todos orquestrados via Kubernetes.
 
-6. [[**kubernetes-dashboard**]](https://github.com/davidcardoso-homelab/kubernetes-dashboard)  
+7. [[**kubernetes-dashboard**]](https://github.com/davidcardoso-homelab/kubernetes-dashboard)  
 	Solução web para visualizar o cluster através de uma interface amigável.
 
 ---
