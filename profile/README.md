@@ -14,35 +14,37 @@ A stack contempla desde a instalação do cluster Kubernetes até a configuraç�
 
 Para reproduzir o ambiente completo, siga a ordem abaixo:
 
-1. [**k3s**](https://github.com/davidcardoso-homelab/k3s)  
+> 🔒 **Os repositórios abaixo são privados.** Os links ficam como referência da estrutura do projeto; sem acesso, o GitHub mostra uma página 404.
+
+1. [**k3s**](https://github.com/davidcardoso-homelab/k3s) 🔒  
 	Provisionamento automatizado do cluster Kubernetes (k3s), scripts de instalação e configuração inicial.
 
-2. [**monitoring**](https://github.com/davidcardoso-homelab/monitoring)  
+2. [**monitoring**](https://github.com/davidcardoso-homelab/monitoring) 🔒  
 	Stack de monitoramento baseada em kube-prometheus-stack (Prometheus, Grafana, Alertmanager), totalmente gerenciada via ArgoCD.
 
-3. [**metallb**](https://github.com/davidcardoso-homelab/metallb)  
+3. [**metallb**](https://github.com/davidcardoso-homelab/metallb) 🔒  
 	Balanceador de carga de IPs para Kubernetes em ambientes bare-metal, permitindo exposição de serviços via LoadBalancer.
 
-4. [**pihole-unbound**](https://github.com/davidcardoso-homelab/pihole-unbound)  
+4. [**pihole-unbound**](https://github.com/davidcardoso-homelab/pihole-unbound) 🔒  
 	Solução de DNS seguro e privado, combinando Pi-hole (bloqueio de anúncios) e Unbound (resolução recursiva).
 
-5. [**databases**](https://github.com/davidcardoso-homelab/databases)  
+5. [**databases**](https://github.com/davidcardoso-homelab/databases) 🔒  
 	Provisionamento automatico de banco de dados dentro do cluster kubernetes.
 
-6. [**media**](https://github.com/davidcardoso-homelab/media)  
+6. [**media**](https://github.com/davidcardoso-homelab/media) 🔒  
 	Central de mídia com Jellyfin, Sonarr, Radarr, qBittorrent, Bazarr, Prowlarr, Homarr e Jellyseerr, todos orquestrados via Kubernetes.
 
-7. [**ai**](https://github.com/davidcardoso-homelab/ai)  
+7. [**ai**](https://github.com/davidcardoso-homelab/ai) 🔒  
 	Stack de inteligência artificial self-hosted com Ollama (inferência local do modelo Gemma3 4B), Odysseus (workspace de IA com chat, agentes e pesquisa), ChromaDB (vector database para RAG), SearXNG (busca web privada) e ntfy (notificações push).
 
-8. [**kubernetes-dashboard**](https://github.com/davidcardoso-homelab/kubernetes-dashboard)  
+8. [**kubernetes-dashboard**](https://github.com/davidcardoso-homelab/kubernetes-dashboard) 🔒  
 	Interface web para visualizar e gerenciar o cluster com o [Headlamp](https://headlamp.dev/) (substituto do Kubernetes Dashboard, que foi arquivado).
 
 ---
 
 ## Como Utilizar
 
-Cada repositório possui um README detalhado com instruções de instalação, pré-requisitos e exemplos de configuração.  
+Cada repositório possui um README detalhado com instruções de instalação, pré-requisitos e exemplos de configuração, disponível para quem tem acesso aos repositórios privados.  
 Siga rigorosamente a ordem acima para garantir que todas as dependências estejam corretamente configuradas.
 
 - **Pré-requisitos gerais:**  
@@ -57,8 +59,8 @@ Siga rigorosamente a ordem acima para garantir que todas as dependências esteja
 
 ## Suporte e Contribuição
 
-- Dúvidas, sugestões ou problemas? Abra uma issue no repositório correspondente.
-- Contribuições são bem-vindas! Consulte as diretrizes de contribuição em cada projeto.
+- Dúvidas, sugestões ou interesse no projeto? Entre em contato pelo meu perfil no GitHub, [@davidcardoso01](https://github.com/davidcardoso01).
+- Os repositórios são privados, então issues e contribuições ficam restritas a quem tem acesso.
 
 ---
 
