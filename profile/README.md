@@ -34,10 +34,7 @@ Para reproduzir o ambiente completo, siga a ordem abaixo:
 6. [**media**](https://github.com/davidcardoso-homelab/media) 🔒  
 	Central de mídia com Jellyfin, Sonarr, Radarr, qBittorrent, Bazarr, Prowlarr, Homarr e Jellyseerr, todos orquestrados via Kubernetes.
 
-7. [**ai**](https://github.com/davidcardoso-homelab/ai) 🔒  
-	Stack de inteligência artificial self-hosted com Ollama (inferência local do modelo Gemma3 4B), Odysseus (workspace de IA com chat, agentes e pesquisa), ChromaDB (vector database para RAG), SearXNG (busca web privada) e ntfy (notificações push).
-
-8. [**kubernetes-dashboard**](https://github.com/davidcardoso-homelab/kubernetes-dashboard) 🔒  
+7. [**kubernetes-dashboard**](https://github.com/davidcardoso-homelab/kubernetes-dashboard) 🔒  
 	Interface web para visualizar e gerenciar o cluster com o [Headlamp](https://headlamp.dev/) (substituto do Kubernetes Dashboard, que foi arquivado).
 
 ---
